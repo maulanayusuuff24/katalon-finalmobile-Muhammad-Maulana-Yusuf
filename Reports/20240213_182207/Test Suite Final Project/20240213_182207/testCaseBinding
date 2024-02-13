@@ -1,0 +1,3 @@
+{"testCaseName":"Test Cases/Register Account","testCaseId":"Test Cases/Register Account","iterationVariableName":"","bindedValues":{"offer":"\u00272\u0027","password":"\u0027Halo123\u0027","firstname":"\u0027Hihi\u0027","address":"\u0027haha\u0027","phone":"\u00270817171\u0027","city":"\u0027kita\u0027","postcode":"\u00273232\u0027","state":"\u0027ha\u0027","email":"\u0027ha@gmail.com\u0027","cpassword":"\u0027Halo123\u0027","username":"\u0027Hey123\u0027","lastname":"\u0027kow\u0027"}}
+{"testCaseName":"Test Cases/Search Speaker","testCaseId":"Test Cases/Search Speaker","iterationVariableName":""}
+{"testCaseName":"Test Cases/Order to Payment","testCaseId":"Test Cases/Order to Payment","iterationVariableName":""}

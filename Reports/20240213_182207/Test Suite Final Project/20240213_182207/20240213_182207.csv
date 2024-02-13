@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite Final Project,,,,13-02-2024 18:22:15,13-02-2024 18:25:45,3m - 30.535s,FAILED
+,,,,,,,
+Test Cases/Register Account,,,,13-02-2024 18:22:15,13-02-2024 18:23:22,1m - 6.323s,PASSED
+"startApplication(""C:\Users\Maulana Y\Downloads\Advantage+demo+3.2.apk"", true)",,,,13-02-2024 18:22:16,13-02-2024 18:22:41,25.378s,PASSED
+"tap(findTestObject(""Object Repository/Register/MenuBar""), 0)",,,,13-02-2024 18:22:41,13-02-2024 18:22:43,1.288s,PASSED
+"tap(findTestObject(""Object Repository/Register/LOGIN""), 0)",,,,13-02-2024 18:22:43,13-02-2024 18:22:44,1.140s,PASSED
+"tap(findTestObject(""Object Repository/Register/SIGN UP TODAY""), 0)",,,,13-02-2024 18:22:44,13-02-2024 18:22:45,1.115s,PASSED
+"tap(findTestObject(""Object Repository/Register/android.widget.TextView - USER NAME""), 0)",,,,13-02-2024 18:22:45,13-02-2024 18:22:47,1.994s,PASSED
+"setText(findTestObject(""Object Repository/Register/EditTextUsername""), username, 0)",,,,13-02-2024 18:22:47,13-02-2024 18:22:49,2.312s,PASSED
+"setText(findTestObject(""Object Repository/Register/EditTextEmail""), email, 0)",,,,13-02-2024 18:22:49,13-02-2024 18:22:51,2.246s,PASSED
+"setText(findTestObject(""Object Repository/Register/EditTextPassword""), password, 0)",,,,13-02-2024 18:22:51,13-02-2024 18:22:54,2.201s,PASSED
+"setText(findTestObject(""Object Repository/Register/EditTextConfirmPassword""), cpassword, 0)",,,,13-02-2024 18:22:54,13-02-2024 18:22:56,2.000s,PASSED
+hideKeyboard(),,,,13-02-2024 18:22:56,13-02-2024 18:22:59,3.208s,PASSED
+"scrollToText(""Country"")",,,,13-02-2024 18:22:59,13-02-2024 18:23:02,3.665s,PASSED
+"setText(findTestObject(""Register/FirstName""), firstname, 0)",,,,13-02-2024 18:23:02,13-02-2024 18:23:04,1.749s,PASSED
+"setText(findTestObject(""Register/LastName""), lastname, 0)",,,,13-02-2024 18:23:04,13-02-2024 18:23:07,2.370s,PASSED
+"setText(findTestObject(""Register/PhoneNumber""), phone, 0)",,,,13-02-2024 18:23:07,13-02-2024 18:23:09,2.492s,PASSED
+"setText(findTestObject(""Register/State""), state, 0)",,,,13-02-2024 18:23:09,13-02-2024 18:23:11,2.278s,PASSED
+"setText(findTestObject(""Register/Address""), address, 0)",,,,13-02-2024 18:23:11,13-02-2024 18:23:14,2.423s,PASSED
+"setText(findTestObject(""Register/City""), city, 0)",,,,13-02-2024 18:23:14,13-02-2024 18:23:16,2.495s,PASSED
+"setText(findTestObject(""Register/Zip""), postcode, 0)",,,,13-02-2024 18:23:16,13-02-2024 18:23:19,2.304s,PASSED
+hideKeyboard(),,,,13-02-2024 18:23:19,13-02-2024 18:23:20,1.300s,PASSED
+"if (offer == ""1"")",,,,13-02-2024 18:23:20,13-02-2024 18:23:20,0.005s,PASSED
+else,,,,13-02-2024 18:23:20,13-02-2024 18:23:21,1.131s,PASSED
+"tap(findTestObject(""Register/Button - REGISTER""), 0)",,,,13-02-2024 18:23:21,13-02-2024 18:23:22,0.775s,PASSED
+,,,,,,,
+Test Cases/Search Speaker,,,,13-02-2024 18:23:22,13-02-2024 18:23:31,8.783s,PASSED
+"tap(findTestObject(""Object Repository/Search/Search Button""), 0)",,,,13-02-2024 18:23:22,13-02-2024 18:23:26,3.567s,PASSED
+"setText(findTestObject(""Object Repository/Search/android.widget.EditText - Search""), ""Speaker"", 0)",,,,13-02-2024 18:23:26,13-02-2024 18:23:28,2.771s,PASSED
+"tap(findTestObject(""Object Repository/Search/Search Button""), 0)",,,,13-02-2024 18:23:28,13-02-2024 18:23:29,1.142s,PASSED
+pressBack(),,,,13-02-2024 18:23:29,13-02-2024 18:23:31,1.175s,PASSED
+,,,,,,,
+Test Cases/Order to Payment,,,,13-02-2024 18:25:14,13-02-2024 18:25:45,31.647s,FAILED
+"tap(findTestObject(""Object Repository/Order to Payment/HEADPHONES""), 0)",,,,13-02-2024 18:25:14,13-02-2024 18:25:45,31.627s,FAILED

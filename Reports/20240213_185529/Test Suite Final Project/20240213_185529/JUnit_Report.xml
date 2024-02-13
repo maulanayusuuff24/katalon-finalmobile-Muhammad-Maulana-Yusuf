@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite Final Project" time="119.568" tests="3" failures="0" errors="0">
+   <testsuite name="Test Suite Final Project" tests="3" failures="0" errors="0" time="119.568" skipped="0" timestamp="13-02-2024T18:55:41" hostname="Maulana Y - DESKTOP-736VERV" id="Test Suites/Test Suite Final Project">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone_x86 - Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Maulana Y\\git\\katalon-finalmobile-Muhammad-Maulana-Yusuf\\Reports\\20240213_185529\\Test Suite Final Project\\20240213_185529"/>
+         <property name="logFiles" value="C:\\Users\\Maulana Y\\git\\katalon-finalmobile-Muhammad-Maulana-Yusuf\\Reports\\20240213_185529\\Test Suite Final Project\\20240213_185529\\appium.log, C:\\Users\\Maulana Y\\git\\katalon-finalmobile-Muhammad-Maulana-Yusuf\\Reports\\20240213_185529\\Test Suite Final Project\\20240213_185529\\appium_error.log, C:\\Users\\Maulana Y\\git\\katalon-finalmobile-Muhammad-Maulana-Yusuf\\Reports\\20240213_185529\\Test Suite Final Project\\20240213_185529\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Maulana Y - DESKTOP-736VERV"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.5.0&quot;}}}"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.5.0"/>
+         <property name="deviceModel" value="sdk_gphone_x86"/>
+         <property name="hostAddress" value="172.20.10.4"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone_x86 - Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/Register Account" time="64.967" classname="Test Cases/Register Account" status="PASSED">
+         <system-out><![CDATA[13-02-2024T18:55:41 - [TEST_CASE][PASSED] - Test Cases/Register Account: Test Cases/Register Account
+
+13-02-2024T18:55:42 - [TEST_STEP][PASSED] - startApplication("C:\Users\Maulana Y\Downloads\Advantage+demo+3.2.apk", true): Started app at: 'C:\Users\Maulana Y\Downloads\Advantage+demo+3.2.apk'
+
+13-02-2024T18:55:42 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+13-02-2024T18:55:53 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+13-02-2024T18:55:53 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\Maulana Y\.appium
+
+13-02-2024T18:55:53 - [MESSAGE][INFO] - appium outlog: C:\Users\Maulana Y\git\katalon-finalmobile-Muhammad-Maulana-Yusuf\Reports\20240213_185529\Test Suite Final Project\20240213_185529\appium.log
+
+13-02-2024T18:55:53 - [MESSAGE][INFO] - appium errlog: C:\Users\Maulana Y\git\katalon-finalmobile-Muhammad-Maulana-Yusuf\Reports\20240213_185529\Test Suite Final Project\20240213_185529\appium_error.log
+
+13-02-2024T18:55:56 - [MESSAGE][INFO] - Appium server started on port 64,196
+
+13-02-2024T18:56:05 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Maulana Y\Downloads\Advantage+demo+3.2.apk'
+
+13-02-2024T18:56:05 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/MenuBar"), 0): Tapped on element 'Object Repository/Register/MenuBar'
+
+13-02-2024T18:56:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T18:56:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/MenuBar'
+
+13-02-2024T18:56:07 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/LOGIN"), 0): Tapped on element 'Object Repository/Register/LOGIN'
+
+13-02-2024T18:56:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T18:56:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/LOGIN'
+
+13-02-2024T18:56:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/SIGN UP TODAY"), 0): Tapped on element 'Object Repository/Register/SIGN UP TODAY'
+
+13-02-2024T18:56:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T18:56:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/SIGN UP TODAY'
+
+13-02-2024T18:56:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/android.widget.TextView - USER NAME"), 0): Tapped on element 'Object Repository/Register/android.widget.TextView - USER NAME'
+
+13-02-2024T18:56:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T18:56:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.TextView - USER NAME'
+
+13-02-2024T18:56:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/EditTextUsername"), username, 0): Text 'Mami12' has been set to element 'Object Repository/Register/EditTextUsername'
+
+13-02-2024T18:56:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T18:56:14 - [MESSAGE][PASSED] - Text 'Mami12' has been set to element 'Object Repository/Register/EditTextUsername'
+
+13-02-2024T18:56:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/EditTextEmail"), email, 0): Text 'Mami@gmail.com' has been set to element 'Object Repository/Register/EditTextEmail'
+
+13-02-2024T18:56:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T18:56:16 - [MESSAGE][PASSED] - Text 'Mami@gmail.com' has been set to element 'Object Repository/Register/EditTextEmail'
+
+13-02-2024T18:56:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/EditTextPassword"), password, 0): Text 'Halo123' has been set to element 'Object Repository/Register/EditTextPassword'
+
+13-02-2024T18:56:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T18:56:18 - [MESSAGE][PASSED] - Text 'Halo123' has been set to element 'Object Repository/Register/EditTextPassword'
+
+13-02-2024T18:56:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/EditTextConfirmPassword"), cpassword, 0): Text 'Halo123' has been set to element 'Object Repository/Register/EditTextConfirmPassword'
+
+13-02-2024T18:56:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T18:56:20 - [MESSAGE][PASSED] - Text 'Halo123' has been set to element 'Object Repository/Register/EditTextConfirmPassword'
+
+13-02-2024T18:56:20 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+13-02-2024T18:56:24 - [MESSAGE][PASSED] - Keyboard is hidden
+
+13-02-2024T18:56:24 - [TEST_STEP][PASSED] - scrollToText("Country"): Scrolling to text 'Country' successfully
+
+13-02-2024T18:56:28 - [MESSAGE][PASSED] - Scrolling to text 'Country' successfully
+
+13-02-2024T18:56:28 - [TEST_STEP][PASSED] - setText(findTestObject("Register/FirstName"), firstname, 0): Text 'Koiw' has been set to element 'Object Repository/Register/FirstName'
+
+13-02-2024T18:56:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T18:56:29 - [MESSAGE][PASSED] - Text 'Koiw' has been set to element 'Object Repository/Register/FirstName'
+
+13-02-2024T18:56:29 - [TEST_STEP][PASSED] - setText(findTestObject("Register/LastName"), lastname, 0): Text 'kekeke' has been set to element 'Object Repository/Register/LastName'
+
+13-02-2024T18:56:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T18:56:32 - [MESSAGE][PASSED] - Text 'kekeke' has been set to element 'Object Repository/Register/LastName'
+
+13-02-2024T18:56:32 - [TEST_STEP][PASSED] - setText(findTestObject("Register/PhoneNumber"), phone, 0): Text '0891991' has been set to element 'Object Repository/Register/PhoneNumber'
+
+13-02-2024T18:56:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T18:56:34 - [MESSAGE][PASSED] - Text '0891991' has been set to element 'Object Repository/Register/PhoneNumber'
+
+13-02-2024T18:56:34 - [TEST_STEP][PASSED] - setText(findTestObject("Register/State"), state, 0): Text 'dureia' has been set to element 'Object Repository/Register/State'
+
+13-02-2024T18:56:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T18:56:36 - [MESSAGE][PASSED] - Text 'dureia' has been set to element 'Object Repository/Register/State'
+
+13-02-2024T18:56:36 - [TEST_STEP][PASSED] - setText(findTestObject("Register/Address"), address, 0): Text 'adaleh' has been set to element 'Object Repository/Register/Address'
+
+13-02-2024T18:56:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T18:56:39 - [MESSAGE][PASSED] - Text 'adaleh' has been set to element 'Object Repository/Register/Address'
+
+13-02-2024T18:56:39 - [TEST_STEP][PASSED] - setText(findTestObject("Register/City"), city, 0): Text 'kalimat' has been set to element 'Object Repository/Register/City'
+
+13-02-2024T18:56:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T18:56:41 - [MESSAGE][PASSED] - Text 'kalimat' has been set to element 'Object Repository/Register/City'
+
+13-02-2024T18:56:41 - [TEST_STEP][PASSED] - setText(findTestObject("Register/Zip"), postcode, 0): Text '8811' has been set to element 'Object Repository/Register/Zip'
+
+13-02-2024T18:56:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T18:56:44 - [MESSAGE][PASSED] - Text '8811' has been set to element 'Object Repository/Register/Zip'
+
+13-02-2024T18:56:44 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+13-02-2024T18:56:45 - [MESSAGE][PASSED] - Keyboard is hidden
+
+13-02-2024T18:56:45 - [TEST_STEP][PASSED] - if (offer == "1"): Tapped on element 'Object Repository/Register/android.widget.CheckBox - Receive exclusive offers and promotions'
+
+13-02-2024T18:56:45 - [TEST_STEP][PASSED] - tap(findTestObject("Register/android.widget.CheckBox - Receive exclusive offers and promotions"), 0): Tapped on element 'Object Repository/Register/android.widget.CheckBox - Receive exclusive offers and promotions'
+
+13-02-2024T18:56:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T18:56:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.CheckBox - Receive exclusive offers and promotions'
+
+13-02-2024T18:56:45 - [TEST_STEP][PASSED] - tap(findTestObject("Register/Button - REGISTER"), 0): Tapped on element 'Object Repository/Register/Button - REGISTER'
+
+13-02-2024T18:56:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T18:56:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/Button - REGISTER']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search Speaker" time="7.868" classname="Test Cases/Search Speaker" status="PASSED">
+         <system-out><![CDATA[13-02-2024T18:56:46 - [TEST_CASE][PASSED] - Test Cases/Search Speaker: Test Cases/Search Speaker
+
+13-02-2024T18:56:46 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Search/Search Button"), 0): Tapped on element 'Object Repository/Search/Search Button'
+
+13-02-2024T18:56:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T18:56:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Search/Search Button'
+
+13-02-2024T18:56:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search/android.widget.EditText - Search"), "Speaker", 0): Text 'Speaker' has been set to element 'Object Repository/Search/android.widget.EditText - Search'
+
+13-02-2024T18:56:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T18:56:52 - [MESSAGE][PASSED] - Text 'Speaker' has been set to element 'Object Repository/Search/android.widget.EditText - Search'
+
+13-02-2024T18:56:52 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Search/Search Button"), 0): Tapped on element 'Object Repository/Search/Search Button'
+
+13-02-2024T18:56:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T18:56:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Search/Search Button'
+
+13-02-2024T18:56:53 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+13-02-2024T18:56:54 - [MESSAGE][PASSED] - Press back button successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Order to Payment" time="45.979" classname="Test Cases/Order to Payment" status="PASSED">
+         <system-out><![CDATA[13-02-2024T18:56:54 - [TEST_CASE][PASSED] - Test Cases/Order to Payment: Test Cases/Order to Payment
+
+13-02-2024T18:56:54 - [TEST_STEP][PASSED] - startApplication("C:\Users\Maulana Y\Downloads\Advantage+demo+3.2.apk", true): Started app at: 'C:\Users\Maulana Y\Downloads\Advantage+demo+3.2.apk'
+
+13-02-2024T18:57:01 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Maulana Y\Downloads\Advantage+demo+3.2.apk'
+
+13-02-2024T18:57:01 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/MenuBar"), 0): Tapped on element 'Object Repository/Register/MenuBar'
+
+13-02-2024T18:57:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T18:57:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/MenuBar'
+
+13-02-2024T18:57:04 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Register/LOGIN"), 0): Tapped on element 'Object Repository/Register/LOGIN'
+
+13-02-2024T18:57:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T18:57:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/LOGIN'
+
+13-02-2024T18:57:05 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input Username login"), "namuu", 0): Text 'namuu' has been set to element 'Object Repository/Login/input Username login'
+
+13-02-2024T18:57:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T18:57:07 - [MESSAGE][PASSED] - Text 'namuu' has been set to element 'Object Repository/Login/input Username login'
+
+13-02-2024T18:57:07 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Input Password Login"), "Halo1", 0): Text 'Halo1' has been set to element 'Object Repository/Login/Input Password Login'
+
+13-02-2024T18:57:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T18:57:10 - [MESSAGE][PASSED] - Text 'Halo1' has been set to element 'Object Repository/Login/Input Password Login'
+
+13-02-2024T18:57:10 - [TEST_STEP][PASSED] - tap(findTestObject("Login/android.widget.Button - LOGIN"), 0): Tapped on element 'Object Repository/Login/android.widget.Button - LOGIN'
+
+13-02-2024T18:57:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T18:57:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.Button - LOGIN'
+
+13-02-2024T18:57:10 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Order to Payment/HEADPHONES"), 0): Tapped on element 'Object Repository/Order to Payment/HEADPHONES'
+
+13-02-2024T18:57:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T18:57:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Order to Payment/HEADPHONES'
+
+13-02-2024T18:57:13 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Order to Payment/BEATS STUDIO 2 OVER-EAR MATTE BLACK HEADPHONES"), 0): Tapped on element 'Object Repository/Order to Payment/BEATS STUDIO 2 OVER-EAR MATTE BLACK HEADPHONES'
+
+13-02-2024T18:57:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T18:57:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Order to Payment/BEATS STUDIO 2 OVER-EAR MATTE BLACK HEADPHONES'
+
+13-02-2024T18:57:17 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Order to Payment/Button - ADD TO CART"), 0): Tapped on element 'Object Repository/Order to Payment/Button - ADD TO CART'
+
+13-02-2024T18:57:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T18:57:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Order to Payment/Button - ADD TO CART'
+
+13-02-2024T18:57:20 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Order to Payment/Cart"), 0): Tapped on element 'Object Repository/Order to Payment/Cart'
+
+13-02-2024T18:57:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T18:57:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Order to Payment/Cart'
+
+13-02-2024T18:57:22 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Order to Payment/Button - CHECKOUT (PAY 179.99)"), 0): Tapped on element 'Object Repository/Order to Payment/Button - CHECKOUT (PAY 179.99)'
+
+13-02-2024T18:57:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T18:57:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Order to Payment/Button - CHECKOUT (PAY 179.99)'
+
+13-02-2024T18:57:23 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Order to Payment/PaymentSelect"), 0): Tapped on element 'Object Repository/Order to Payment/PaymentSelect'
+
+13-02-2024T18:57:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T18:57:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Order to Payment/PaymentSelect'
+
+13-02-2024T18:57:28 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Order to Payment/SafePay"), 0): Tapped on element 'Object Repository/Order to Payment/SafePay'
+
+13-02-2024T18:57:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T18:57:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Order to Payment/SafePay'
+
+13-02-2024T18:57:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Order to Payment/SfUname"), "halohalo", 0): Text 'halohalo' has been set to element 'Object Repository/Order to Payment/SfUname'
+
+13-02-2024T18:57:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T18:57:32 - [MESSAGE][PASSED] - Text 'halohalo' has been set to element 'Object Repository/Order to Payment/SfUname'
+
+13-02-2024T18:57:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Order to Payment/SfPassw"), "Halo1", 5): Text 'Halo1' has been set to element 'Object Repository/Order to Payment/SfPassw'
+
+13-02-2024T18:57:34 - [MESSAGE][PASSED] - Text 'Halo1' has been set to element 'Object Repository/Order to Payment/SfPassw'
+
+13-02-2024T18:57:34 - [TEST_STEP][PASSED] - tap(findTestObject("Order to Payment/android.widget.TextView - APPLY"), 0): Tapped on element 'Object Repository/Order to Payment/android.widget.TextView - APPLY'
+
+13-02-2024T18:57:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T18:57:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Order to Payment/android.widget.TextView - APPLY'
+
+13-02-2024T18:57:35 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Order to Payment/android.widget.Button - PAY NOW"), 0): Tapped on element 'Object Repository/Order to Payment/android.widget.Button - PAY NOW'
+
+13-02-2024T18:57:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T18:57:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Order to Payment/android.widget.Button - PAY NOW'
+
+13-02-2024T18:57:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Order to Payment/android.widget.TextView - Your cart was successfully purchased"), 0): Element 'Object Repository/Order to Payment/android.widget.TextView - Your cart was successfully purchased' is visible
+
+13-02-2024T18:57:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T18:57:39 - [MESSAGE][PASSED] - Element 'Object Repository/Order to Payment/android.widget.TextView - Your cart was successfully purchased' is visible
+
+13-02-2024T18:57:39 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Order to Payment/Close"), 0): Tapped on element 'Object Repository/Order to Payment/Close'
+
+13-02-2024T18:57:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T18:57:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Order to Payment/Close']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-02-2024T18:55:41 - [TEST_SUITE][PASSED] - Test Suite Final Project: Test Cases/Order to Payment]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

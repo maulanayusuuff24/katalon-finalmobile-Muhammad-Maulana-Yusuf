@@ -1,0 +1,52 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite Final Project,,,,13-02-2024 18:55:41,13-02-2024 18:57:40,1m - 59.568s,PASSED
+,,,,,,,
+Test Cases/Register Account,,,,13-02-2024 18:55:41,13-02-2024 18:56:46,1m - 4.967s,PASSED
+"startApplication(""C:\Users\Maulana Y\Downloads\Advantage+demo+3.2.apk"", true)",,,,13-02-2024 18:55:42,13-02-2024 18:56:05,23.792s,PASSED
+"tap(findTestObject(""Object Repository/Register/MenuBar""), 0)",,,,13-02-2024 18:56:05,13-02-2024 18:56:07,2.010s,PASSED
+"tap(findTestObject(""Object Repository/Register/LOGIN""), 0)",,,,13-02-2024 18:56:07,13-02-2024 18:56:09,1.107s,PASSED
+"tap(findTestObject(""Object Repository/Register/SIGN UP TODAY""), 0)",,,,13-02-2024 18:56:09,13-02-2024 18:56:09,0.929s,PASSED
+"tap(findTestObject(""Object Repository/Register/android.widget.TextView - USER NAME""), 0)",,,,13-02-2024 18:56:09,13-02-2024 18:56:11,1.731s,PASSED
+"setText(findTestObject(""Object Repository/Register/EditTextUsername""), username, 0)",,,,13-02-2024 18:56:11,13-02-2024 18:56:14,2.364s,PASSED
+"setText(findTestObject(""Object Repository/Register/EditTextEmail""), email, 0)",,,,13-02-2024 18:56:14,13-02-2024 18:56:16,2.504s,PASSED
+"setText(findTestObject(""Object Repository/Register/EditTextPassword""), password, 0)",,,,13-02-2024 18:56:16,13-02-2024 18:56:18,2.146s,PASSED
+"setText(findTestObject(""Object Repository/Register/EditTextConfirmPassword""), cpassword, 0)",,,,13-02-2024 18:56:18,13-02-2024 18:56:20,2.015s,PASSED
+hideKeyboard(),,,,13-02-2024 18:56:20,13-02-2024 18:56:24,3.610s,PASSED
+"scrollToText(""Country"")",,,,13-02-2024 18:56:24,13-02-2024 18:56:28,3.750s,PASSED
+"setText(findTestObject(""Register/FirstName""), firstname, 0)",,,,13-02-2024 18:56:28,13-02-2024 18:56:29,1.820s,PASSED
+"setText(findTestObject(""Register/LastName""), lastname, 0)",,,,13-02-2024 18:56:29,13-02-2024 18:56:32,2.427s,PASSED
+"setText(findTestObject(""Register/PhoneNumber""), phone, 0)",,,,13-02-2024 18:56:32,13-02-2024 18:56:34,2.438s,PASSED
+"setText(findTestObject(""Register/State""), state, 0)",,,,13-02-2024 18:56:34,13-02-2024 18:56:36,2.206s,PASSED
+"setText(findTestObject(""Register/Address""), address, 0)",,,,13-02-2024 18:56:36,13-02-2024 18:56:39,2.440s,PASSED
+"setText(findTestObject(""Register/City""), city, 0)",,,,13-02-2024 18:56:39,13-02-2024 18:56:41,2.457s,PASSED
+"setText(findTestObject(""Register/Zip""), postcode, 0)",,,,13-02-2024 18:56:41,13-02-2024 18:56:44,2.509s,PASSED
+hideKeyboard(),,,,13-02-2024 18:56:44,13-02-2024 18:56:45,1.324s,PASSED
+"if (offer == ""1"")",,,,13-02-2024 18:56:45,13-02-2024 18:56:45,0.301s,PASSED
+"tap(findTestObject(""Register/Button - REGISTER""), 0)",,,,13-02-2024 18:56:45,13-02-2024 18:56:46,0.765s,PASSED
+,,,,,,,
+Test Cases/Search Speaker,,,,13-02-2024 18:56:46,13-02-2024 18:56:54,7.868s,PASSED
+"tap(findTestObject(""Object Repository/Search/Search Button""), 0)",,,,13-02-2024 18:56:46,13-02-2024 18:56:49,2.864s,PASSED
+"setText(findTestObject(""Object Repository/Search/android.widget.EditText - Search""), ""Speaker"", 0)",,,,13-02-2024 18:56:49,13-02-2024 18:56:52,2.761s,PASSED
+"tap(findTestObject(""Object Repository/Search/Search Button""), 0)",,,,13-02-2024 18:56:52,13-02-2024 18:56:53,1.061s,PASSED
+pressBack(),,,,13-02-2024 18:56:53,13-02-2024 18:56:54,1.117s,PASSED
+,,,,,,,
+Test Cases/Order to Payment,,,,13-02-2024 18:56:54,13-02-2024 18:57:40,45.979s,PASSED
+"startApplication(""C:\Users\Maulana Y\Downloads\Advantage+demo+3.2.apk"", true)",,,,13-02-2024 18:56:54,13-02-2024 18:57:01,6.790s,PASSED
+"tap(findTestObject(""Object Repository/Register/MenuBar""), 0)",,,,13-02-2024 18:57:01,13-02-2024 18:57:04,3.394s,PASSED
+"tap(findTestObject(""Object Repository/Register/LOGIN""), 0)",,,,13-02-2024 18:57:04,13-02-2024 18:57:05,0.360s,PASSED
+"setText(findTestObject(""Login/input Username login""), ""namuu"", 0)",,,,13-02-2024 18:57:05,13-02-2024 18:57:07,2.408s,PASSED
+"setText(findTestObject(""Login/Input Password Login""), ""Halo1"", 0)",,,,13-02-2024 18:57:07,13-02-2024 18:57:10,2.359s,PASSED
+"tap(findTestObject(""Login/android.widget.Button - LOGIN""), 0)",,,,13-02-2024 18:57:10,13-02-2024 18:57:10,0.660s,PASSED
+"tap(findTestObject(""Object Repository/Order to Payment/HEADPHONES""), 0)",,,,13-02-2024 18:57:10,13-02-2024 18:57:13,3.299s,PASSED
+"tap(findTestObject(""Object Repository/Order to Payment/BEATS STUDIO 2 OVER-EAR MATTE BLACK HEADPHONES""), 0)",,,,13-02-2024 18:57:13,13-02-2024 18:57:17,3.480s,PASSED
+"tap(findTestObject(""Object Repository/Order to Payment/Button - ADD TO CART""), 0)",,,,13-02-2024 18:57:17,13-02-2024 18:57:20,2.768s,PASSED
+"tap(findTestObject(""Object Repository/Order to Payment/Cart""), 0)",,,,13-02-2024 18:57:20,13-02-2024 18:57:22,1.823s,PASSED
+"tap(findTestObject(""Object Repository/Order to Payment/Button - CHECKOUT (PAY 179.99)""), 0)",,,,13-02-2024 18:57:22,13-02-2024 18:57:23,1.425s,PASSED
+"tap(findTestObject(""Object Repository/Order to Payment/PaymentSelect""), 0)",,,,13-02-2024 18:57:23,13-02-2024 18:57:28,4.683s,PASSED
+"tap(findTestObject(""Object Repository/Order to Payment/SafePay""), 0)",,,,13-02-2024 18:57:28,13-02-2024 18:57:30,2.365s,PASSED
+"setText(findTestObject(""Object Repository/Order to Payment/SfUname""), ""halohalo"", 0)",,,,13-02-2024 18:57:30,13-02-2024 18:57:32,1.695s,PASSED
+"setText(findTestObject(""Object Repository/Order to Payment/SfPassw""), ""Halo1"", 5)",,,,13-02-2024 18:57:32,13-02-2024 18:57:34,2.439s,PASSED
+"tap(findTestObject(""Order to Payment/android.widget.TextView - APPLY""), 0)",,,,13-02-2024 18:57:34,13-02-2024 18:57:35,0.602s,PASSED
+"tap(findTestObject(""Object Repository/Order to Payment/android.widget.Button - PAY NOW""), 0)",,,,13-02-2024 18:57:35,13-02-2024 18:57:37,2.191s,PASSED
+"verifyElementVisible(findTestObject(""Order to Payment/android.widget.TextView - Your cart was successfully purchased""), 0)",,,,13-02-2024 18:57:37,13-02-2024 18:57:39,2.358s,PASSED
+"tap(findTestObject(""Object Repository/Order to Payment/Close""), 0)",,,,13-02-2024 18:57:39,13-02-2024 18:57:40,0.803s,PASSED

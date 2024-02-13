@@ -40,6 +40,6 @@ Langkah:
 - Pengguna menerima konfirmasi pembayaran.
 - Pesanan diproses dan siap untuk pengiriman.
 
-##Kesimpulan:
+## Kesimpulan :
 
 Berdasarkan hasil pengujian, fungsionalitas utama aplikasi mobile seperti registrasi akun, pencarian produk, dan proses order hingga pembayaran berjalan dengan baik.
