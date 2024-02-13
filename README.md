@@ -1,6 +1,9 @@
 # Ringkasan Pengujian Mobile Apps
 ## Tujuan: Melakukan pengujian terhadap aplikasi mobile untuk memastikan fungsionalitas utama aplikasi berjalan dengan baik.
 
+## Keterangan :
+- Penggunaan Data binding dan if else ada pada Test Case Register Account
+
 ## Metode Pengujian:
 
 ### 1. Registrasi Akun:
